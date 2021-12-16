@@ -86,11 +86,23 @@ h3 {
   text-align: center;
 }
 
-#prodcutContainer {
+#productContainer {
   display: flex;
   margin: auto;
   max-height: 30%;
   justify-content: center;
-  align-items: center;
-  padding-top: 5%;
+}
+
+#catFive{
+  max-width: 35%;
+  height: auto;
+}
+
+#sideLabel {
+  width: 30%;
+  padding: 5% 0 5% 5%;
+}
+
+#sideLabel h4, #sideLabel h2 {
+  margin-bottom: 8%;
 }
